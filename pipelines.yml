@@ -12,7 +12,7 @@ resources:
   - name: buildInfoTrigger
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: test_art
       buildName: backend_build
       buildNumber: 1
   - name: gitResCanvas
