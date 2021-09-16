@@ -18,7 +18,7 @@ resources:
   - name: gitResCanvas
     type: GitRepo
     configuration:
-      gitProvider: gitResource
+      gitProvider: test_gitResource
       path: ChaitanyaVootla/ymlTest
 pipelines:
   - name: trigger_test
