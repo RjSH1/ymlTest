@@ -18,7 +18,7 @@ resources:
   - name: gitResCanvas
     type: GitRepo
     configuration:
-      gitProvider: gitResource
+      gitProvider: rjGithub
       path: RjSH1/ymlTest
   - name: incomw
     type: IncomingWebhook
