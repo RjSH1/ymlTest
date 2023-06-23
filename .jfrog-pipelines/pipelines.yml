@@ -11,10 +11,10 @@ resources:
       key1: value1
       key2: value2
       pipelines: "user_in"
-  - name: art
+  - name: myArtifactory
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: myArtifactory
       buildName: artBuild
       buildNumber: 1
   - name: gitPip
@@ -63,7 +63,7 @@ pipelines:
           priority: 0
           inputResources:
 # #             - name: buildInfoTrigger
-            - name: art
+            - name: myArtifactory
             - name: propertyCanvas
               trigger: false
             - name: gitPip
@@ -88,7 +88,7 @@ pipelines:
             step2env1: 1
             step2env2: 2
           inputResources:
-            - name: art
+            - name: myArtifactory
             - name: propertyCanvas
               trigger: false
             - name: gitPip
