@@ -20,7 +20,7 @@ resources:
   - name: gitPip
     type: GitRepo
     configuration:
-      gitProvider: git
+      gitProvider: rjGithub
       path: ChaitanyaVootla/ymlTest
 pipelines:
   - name: single_test
