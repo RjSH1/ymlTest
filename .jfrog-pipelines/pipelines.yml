@@ -21,7 +21,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: rjGithub
-      path: ChaitanyaVootla/ymlTest
+      path: RjSH1/ymlTest
 pipelines:
   - name: single_test
     configuration:
