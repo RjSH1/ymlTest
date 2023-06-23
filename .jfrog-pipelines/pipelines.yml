@@ -17,7 +17,7 @@ resources:
       sourceArtifactory: myArtifactory
       buildName: artBuild
       buildNumber: 1
-  - name: gitPip
+  - name: rjGithub
     type: GitRepo
     configuration:
       gitProvider: rjGithub
@@ -66,7 +66,7 @@ pipelines:
             - name: myArtifactory
             - name: propertyCanvas
               trigger: false
-            - name: gitPip
+            - name: rjGithub
           outputResources:
             - name: propertyCanvasOut
         execution:
@@ -91,7 +91,7 @@ pipelines:
             - name: myArtifactory
             - name: propertyCanvas
               trigger: false
-            - name: gitPip
+            - name: rjGithub
           inputSteps:
             - name: trigger_1
           outputResources:
